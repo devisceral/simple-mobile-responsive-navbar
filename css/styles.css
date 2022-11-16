@@ -37,8 +37,14 @@ a, h1 {
   display: flex;
 }
 
+.nav-menu a:hover{
+  color: rgb(126, 97, 211);
+  transition: .5s;
+}
+
 .hamburguer {
   display: none;
+  cursor: pointer;
 }
 
 .bar {
